@@ -4,7 +4,7 @@ let subjects = [
         "title": "Mathematics",
         "location": "Dubai",
         "price": '40',
-        "image": '../images/mathematics.jpeg',
+        "image": 'images/mathematics.jpeg',
         "spaces": 5
     },
     {
