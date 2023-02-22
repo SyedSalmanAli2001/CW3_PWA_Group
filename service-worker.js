@@ -12,7 +12,7 @@ var cacheFiles = [
     'images/geography.jpeg',
     'images/history.jpeg',
     'images/it.jpeg',
-    '../images/mathematics.jpeg',
+    'images/mathematics.jpeg',
     'images/physics.jpeg'
     
 ];
