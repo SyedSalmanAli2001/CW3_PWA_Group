@@ -13,10 +13,7 @@ var cacheFiles = [
     'images/history.jpeg',
     'images/it.jpeg',
     'images/mathematics.jpeg',
-    'images/physics.jpeg',
-    'physics.jpeg'
-
-    
+    'images/physics.jpeg'
 ];
 
 self.addEventListener('install', (e) => {
