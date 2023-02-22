@@ -12,7 +12,7 @@ var cacheFiles = [
     'images/geography.jpeg',
     'images/history.jpeg',
     'images/it.jpeg',
-    'images/mathematics.jpeg',
+    '../images/mathematics.jpeg',
     'images/physics.jpeg'
     
 ];
@@ -39,7 +39,6 @@ self.addEventListener('install', (e) => {
 //     });
 
 self.addEventListener('fetch', function (e) {
-    if (e.request.url.startsWith(self.location.origin)) {
     e.respondWith(
         // check if the cache has the file        
         caches.match(e.request).then(function (r) {
@@ -53,5 +52,4 @@ self.addEventListener('fetch', function (e) {
             })
         })    
     );
-    }
 });
