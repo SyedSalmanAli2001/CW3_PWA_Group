@@ -4,7 +4,7 @@ var cacheFiles = [
     'lessons.js',
     'lessons.webmanifest',
     'images/icon.png',
-    'images/art.webp',
+    // 'images/art.webp',
     'images/biology.jpeg',
     'images/chemistry.jpeg',
     'images/drama.jpeg',
@@ -12,7 +12,7 @@ var cacheFiles = [
     'images/geography.jpeg',
     'images/history.jpeg',
     'images/it.jpeg',
-    'images/mathematics.jpeg',
+    'images/mathematics.JPEG',
     'images/physics.jpeg'
 ];
 
