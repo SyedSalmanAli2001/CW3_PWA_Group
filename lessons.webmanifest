@@ -1,0 +1,14 @@
+{
+    "name": "After School Lessons",
+    "short_name": "lessons",
+    "description": "A place for students to book after school lessons",
+    "icons": [        
+        {"src": "images/icon.png",
+        "sizes": "512x512",
+        "type": "image/png"        
+        }    
+    ],
+    "start_url": "index.html",
+    "display": "fullscreen",
+    "background_color": "#30D5C8"
+}
