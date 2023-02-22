@@ -8,7 +8,7 @@ var cacheFiles = [
     'images/biology.jpeg',
     'images/chemistry.jpeg',
     'images/drama.jpeg',
-    'images/english.jpeg',
+    'english.jpeg',
     'images/geography.jpeg',
     'images/history.jpeg',
     'images/it.jpeg',
