@@ -3,7 +3,7 @@ let subjects = [
         "id": 01,
         "title": "Mathematics",
         "location": "Dubai",
-        "price": '40',
+        "price": '45',
         "image": 'images/mathematics.jpeg',
         "spaces": 5
     },
