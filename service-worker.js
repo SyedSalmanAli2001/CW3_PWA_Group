@@ -39,10 +39,7 @@ self.addEventListener('install', (e) => {
 //     });
 
 self.addEventListener('fetch', function (e) {
-    if (e.request.url.startsWith("chrome-extension://")){ //check to ensure that the request being made is not a Chrome extension
-                                                            //request before trying to add it to the cache
-        return;
-    }
+    if (e.request.url.startsWith(self.location.origin)) {
     e.respondWith(
         // check if the cache has the file        
         caches.match(e.request).then(function (r) {
@@ -56,4 +53,5 @@ self.addEventListener('fetch', function (e) {
             })
         })    
     );
+    }
 });

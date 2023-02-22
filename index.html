@@ -10,6 +10,14 @@
     <script src="https://unpkg.com/vue@2.7.8/dist/vue.js"></script>
     <script src="lessons.js"></script>
     <link rel="manifest" href="lessons.webmanifest">
+    <style>
+        .subject{
+            border: 1px grey solid;
+            padding: 20px;
+            margin: 20px;
+            text-align: center; 
+        }
+    </style>
     <script>
         if('serviceWorker'in navigator) {
             navigator.serviceWorker.register('service-worker.js');
@@ -54,7 +62,7 @@
             <br>
             <br>
             <!-- for loop to show all lessons. value called from sortedSubjects -->
-            <div v-for="subject in sortedSubjects">
+            <div class="subject" v-for="subject in sortedSubjects">
                 <br>
                 <img width="450" height="350" v-bind:src="subject.image">
                 <h2>{{subject.title}}</h2>
